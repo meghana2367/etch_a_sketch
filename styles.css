@@ -1,0 +1,37 @@
+.item {
+    background-color: white;
+    width: calc(60vh / 16);
+    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+    height: calc(60vh / 16);
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 60vh;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+    font-family: Poppins, sans-serif;
+}
+
+.title {
+    align-self: center;
+    font-size: 55px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
