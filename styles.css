@@ -1,8 +1,6 @@
 .item {
     background-color: white;
-    width: calc(60vh / 16);
     box-sizing: border-box; /* Ensures padding and border are included in the width and height */
-    height: calc(60vh / 16);
     
 }
 
@@ -34,4 +32,8 @@ body {
 .game {
     display: flex;
     flex-direction: column;
+}
+
+button {
+    margin-top: 20px;
 }
